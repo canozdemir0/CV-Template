@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV Template</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="cv-container"></div>
+
+  <template id="cv-template">
+    <div class="cv-card">
+      <img class="cv-photo" />
+      <h3 class="cv-name"></h3>
+      <p><strong>Yaş:</strong> <span class="cv-age"></span></p>
+      <p><strong>Meslek:</strong> <span class="cv-profession"></span></p>
+      <p><strong>Email:</strong> <span class="cv-email"></span></p>
+      <div class="social-links">
+        <a class="cv-linkedin" target="_blank">LinkedIn</a> |
+        <a class="cv-github" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </template>
+
+  <script src="template.js"></script>
+</body>
+</html>
